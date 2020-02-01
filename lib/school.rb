@@ -104,4 +104,9 @@ class School
     @roster = {}
   end 
   
+  def add_student(student_name, grade)
+    self.roster["student_name"] = []
+    self.roster["student_name"] << "grade"
+  end 
+  
 end 
