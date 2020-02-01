@@ -106,7 +106,7 @@ class School
   
   def add_student(student_name, grade)
     self.roster["student_name"] = []
-    self.roster["student_name"] << "grade"
+    self.roster["student_name"] << grade unless self.roster[grade]
   end 
   
 end 
