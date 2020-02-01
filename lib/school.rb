@@ -114,7 +114,9 @@ class School
   end 
   
   def sort 
-    self.roster.sort 
+    self.roster.each {|grade, name|
+      name.sort 
+    end 
   end 
   
 end 
